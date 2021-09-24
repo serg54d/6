@@ -1,0 +1,390 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/*Шрифт для логотипа*/
+@import url("https://fonts.googleapis.com/css?family=Bonheur+Royale:regular&display=swap&subset=cyrillic-ext");
+
+/*Основной шрифт*/
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+		 url('../fonts/Montserrat-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+		 url('../fonts/Montserrat-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+h2 {
+	font-size: 25px;
+	font-weight: 700;
+	
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------Шапка----------------- */
+.header {
+	background-color: rgb(231, 225, 225);
+	display: block;
+	min-height: 100px;
+}
+.top {
+	
+}
+.logo {
+	margin: 10px 0px 10px 10px;
+	display: inline-block;
+	text-align: left;
+	font-family: "Bonheur-Royale";
+	font-size: 35px;
+	text-shadow: 10px 5px 10px #ff0000;
+}
+
+.logospan {
+	font-size: 15px;
+	text-shadow: none;
+	padding-left: 10px;
+}
+
+a.listlink {
+	background-color: #f566a9;
+	padding: 5px;
+	border-radius: 20% 80% 0% 100% / 68% 37% 63% 32% ;
+	box-shadow: inset 10px 10px 3px #f307df;
+	
+}
+
+.menu {
+}
+.nav {
+
+}
+
+.list {
+	text-align: center;
+	
+}
+.listitem {
+	display: inline-block;
+   margin: 30px 0 0 0;
+   padding-right: 150px;
+   padding-bottom: 20px;
+   font-size: 20px;
+	
+}
+
+.listlink {
+	color: #000;
+}
+
+/* ------------Main----------------- */
+.main {
+	background-color:#ffc2c2;
+	
+}
+.maintop {
+	padding: 15px 0px 175px 0px;
+}
+
+.title {
+	margin: 0px 0px 15px 0px;
+}
+
+.border {
+	max-width: 1500px;
+	margin: 0 auto;
+	margin-bottom: 395px;
+}
+.block {
+	display: inline-block;
+	min-width: 30%;
+	max-width: 30%;
+	min-height: 600px;
+	max-height: 600px;
+	overflow: auto;
+	background-color: rgb(93, 236, 141);
+	margin: 0px 50px 0px 0px;
+	padding: 10px;
+}
+.inline-block {
+	display: inline-block;
+	min-width: 30%;
+	max-width: 30%;
+	min-height: 600px;
+	max-height: 600px;
+	overflow: auto;
+	background-color: rgba(183, 157, 243, 0.562);
+	margin: 0px 50px 0px 0px;
+	padding: 10px;
+}
+.inline {
+	display: inline-block;
+	min-width: 30%;
+	max-width: 30%;
+	min-height: 600px;
+	max-height: 600px;
+	overflow: auto;
+	background-color: rgb(212, 243, 127);
+	padding: 10px;
+	padding-bottom: 175px;
+}
+
+.elementtitle {
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+}
+
+.span {
+	display: block;
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+	color: red;
+}
+
+.paragraphblock {
+	display: block;
+	border: 4px solid #f566a9;
+}
+
+.paragraphinlineblock {
+	display: inline-block;
+	border: 4px dashed #f566a9;
+}
+
+.paragraphinline {
+	display: inline;
+	border: 4px dotted #f566a9;
+	
+}
+
+.paragraphinline2 {
+	display: inline;
+	border: 4px double #f566a9;
+}
+
+
+/* Outline */
+.outline {
+	max-width: 1500px;
+	margin: 0 auto;
+	margin-bottom: 395px;
+}
+
+.paragraphblockoutline {
+	display: block;
+	outline: 4px solid #f566a9;
+}
+
+.paragraphinlineblockoutline {
+	display: inline-block;
+	outline: 4px dashed #f566a9;
+}
+
+.paragraphinlineoutline {
+	display: inline;
+	outline: 10px dotted #ffffff;
+}
+
+.paragraphinline2outline {
+	display: inline;
+	outline: 10px double #000000;
+}
+
+/* border-radius и box-shadow */
+.maincenter {
+	padding: 15px 0px 175px 0px;
+}
+
+.borderradius {
+	max-width: 1500px;
+	margin: 0 auto;
+	margin-bottom: 395px;
+}
+
+.paragraphblockborderradius {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	background-color: #ece02e;
+	border-radius: 50%;
+	box-shadow: 20px 20px 10px #f8000093;
+}
+
+.paragraphinlineblockborderradius {
+		display: inline-block;
+		width: 150px;
+		height: 150px;
+		background-color: #1ffd01;
+		border-radius: 100% 0% 79% 21% / 100% 100% 0% 0% ;
+		box-shadow:inset 20px 20px 10px #f8000093;
+}
+
+.paragraphinlineborderradius {
+	display: inline;
+	line-height: 200%;
+	border: 6px double #1ffd01;
+	border-radius: 90px;
+	box-shadow: 20px 20px 10px #f8000093;
+}
+
+/* Opacity */
+.opacity {
+	max-width: 1500px;
+	margin: 0 auto;
+	margin-bottom: 395px;
+}
+
+.paragraphblockopacity {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	background-color: #ece02e;
+	border-radius: 50%;
+	box-shadow: 20px 20px 10px #f8000093;
+	opacity: 0.8;
+}
+
+.paragraphinlineblockopacity {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: #ece02e;
+	border-radius: 50%;
+	box-shadow: 20px 20px 10px #f8000093;
+	opacity: 0.5;
+}
+
+.paragraphinlineopacity {
+	opacity: 0.2;
+}
+
+/*Доп. задания*/
+
+/* 1) */
+
+.taskone {
+	display: block;
+	max-width: 1500px;
+	margin: 0 auto;
+	margin-bottom: 395px;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	border-radius: 50%;
+	padding-left: 50px;
+}
+
+
+/* 2) */
+
+.tasktwo {
+	opacity: 0.5;
+}
+
+/* 3 */
+.spantaskthree {
+	display: block;
+	border: 5px solid #ff0000;
+}
+
+/* 4 */
+.taskfour {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #3700ff;
+	border-top: 15px solid #cbec34;
+	border-right: 5px dotted #ff0000;
+	border-bottom: 7px double #000;
+	border-right: none;
+}
+
+/* 5 */
+.tastlink {
+	display: inline-block;
+	text-shadow: 5px 5px 5px #ff0000;
+	box-shadow: 10px 10px 10px #1ffd01;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: rgb(105, 85, 85);
+	text-align: center;
+	
+}
+
+.footerlist {
+	min-height: 120px;
+	display: block;
+}
+
+.footeritem {
+	display: inline-block;
+	padding: 50px 50px;
+	color: #fff;
+}
+
+.footerlink {
+	color: #fff;
+}
